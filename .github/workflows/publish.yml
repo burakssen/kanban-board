@@ -36,7 +36,8 @@ jobs:
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: ./out
+          artifact-name: nextjs
+          path: out
 
   deploy:
     environment:
