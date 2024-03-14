@@ -34,7 +34,7 @@ jobs:
         run: |
           npx next build
           pwd
-          ls -l
+          ls -l ..
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3.0.1
